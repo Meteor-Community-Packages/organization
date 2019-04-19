@@ -12,7 +12,20 @@ This isn’t an exhaustive list of things that you can’t do. Rather, it’s a 
 
 This code of conduct applies to all spaces managed by the Meteor Community project. This includes GitHub issues, and any other forums created by the team which the community uses for communication. We expect it to be honored by everyone who represents or participates in the project, whether officially or informally.
 
-If you believe someone is violating the code of conduct, please report it by emailing [community@meteor.com](mailto:community@meteor.com). 
+#### When Something Happens
+
+If you see a Code of Conduct violation, follow these steps:
+
+* Let the person know that what they did is not appropriate and ask them to stop and/or edit their message(s).
+* That person should immediately stop the behavior and correct the issue.
+* If this doesn’t happen, or if you’re uncomfortable speaking up, contact admins.
+* As soon as available, an admin will join, identify themselves, and take further action (see below), starting with a warning, then temporary deactivation, then long-term deactivation.
+
+When reporting, please include any relevant details, links, screenshots, context, or other information that may be used to better understand and resolve the situation.
+
+The Admin team will prioritize the well-being and comfort of the recipients of the violation over the comfort of the violator.
+
+If you believe someone is violating the code of conduct, please report it to any member of the governing team.
 
 ### We Strive To:
 
