@@ -13,10 +13,43 @@ This repository serves to resolve governance issues and establish shared practic
 
 ### Teams
 
+Each repository should have at least one corresponding [GitHub team](https://github.com/orgs/Meteor-Community-Packages/teams), containing all maintainers of the repository. It is suggested that team's name match repository's name, unless team is used for multiple repositories.
+
+Each repository should also have a corresponding Meteor organization, you can [create it here](https://www.meteor.com/account-settings) under `Organizations` tab. After that you can add Meteor users to it, using web interface, or:
+
+```bash
+$ meteor admin members <organization name> --add <username>
+```
+
+Add that Meteor organization then as maintainer of the corresponding Meteor package:
+
+```bash
+$ meteor admin maintainers <package name> --add <organization name>
+```
+
+There is also a special Meteor organization `communitypackages` which consist of trusted community members who have permissions to publish any community package. This is a fallback measure to assure no package ends up without a maintainer. Make sure you add it as maintainer as well.
 
 ## Package maintenance
 
 
 ## Process of adding a package
 
+(Not yet complete.)
 
+* (... Come to a decision of existing repository being adopted or if it is being forked. ...)
+* Move existing repository to the organization **or** create a fork into the organization.
+* If you obtained permission by original Meteor package maintainer to maintain it, continue to use that Meteor package name,
+  otherwise decide on a new package name. You can use `communitypackages` Meteor organization.
+* Create a [GitHub team](https://github.com/orgs/Meteor-Community-Packages/teams) **or** reuse an existing one.
+  It should contain all maintainers of the repository, so configure it to have admin permissions on the repository.
+* Create a Meteor organization for maintainers of the corresponding Meteor package, you can
+  [create it here](https://www.meteor.com/account-settings) under `Organizations` tab.
+  Or reuse an existing one.
+  Add that Meteor organization then as maintainer of the corresponding Meteor package:
+  ```bash
+  meteor admin maintainers <package name> --add <organization name>
+  ```
+* Add `communitypackages` Meteor organization as a maintainer of the new Meteor package:
+  ```bash
+  meteor admin maintainers <package name> --add communitypackages`
+  ```
