@@ -23,6 +23,8 @@ Communication relating to individual repositories should be kept within the issu
 
 Organization level project boards should be used to communicate areas that need work outside of the scope of any individual repo. For example, things we can do to help progress Meteor Core.
 
+You can find the project boards [here](https://github.com/orgs/Meteor-Community-Packages/projects).
+
 ### Slack
 
 Slack should be used for more general communication of ideas and discussion about the progression about the community and as a general community meeting space.
