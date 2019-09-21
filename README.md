@@ -53,3 +53,4 @@ There is also a special Meteor organization `communitypackages` which consist of
   ```bash
   meteor admin maintainers <package name> --add communitypackages`
   ```
+* If repository has been moved, do not forget to update the URL to the repository in `package.js`.
