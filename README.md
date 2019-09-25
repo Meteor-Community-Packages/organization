@@ -4,12 +4,36 @@ This organization unites packages that are important to the [Meteor](https://www
 
 This repository serves to resolve governance issues and establish shared practices and patterns.
 
-## Organization
-
-### Associated organizations/projects
+## Associated organizations/projects
 
 * [Meteor testing](https://github.com/meteortesting) - Focuses on testing in Meteor
 * [Blaze](https://github.com/meteor/blaze) - Maintains the original view layer of Meteor
+
+## Community Resources
+
+* [Awesome Meteor](https://github.com/urigo/awesome-meteor) - A curated, community driven list of awesome Meteor packages, libraries, resources and shiny things.
+
+* [Awesome Blaze](https://github.com/arggh/awesome-blaze) - A curated list of awesome things related to Blaze.
+
+## Organization
+
+### Teams
+
+Each repository should have at least one corresponding [GitHub team](https://github.com/orgs/Meteor-Community-Packages/teams), containing all maintainers of the repository. It is suggested that team's name match repository's name, unless team is used for multiple repositories.
+
+Each repository should also have a corresponding Meteor organization, you can [create it here](https://www.meteor.com/account-settings) under `Organizations` tab. After that you can add Meteor users to it, using web interface, or:
+
+```bash
+meteor admin members <organization name> --add <username>
+```
+
+Add that Meteor organization then as maintainer of the corresponding Meteor package:
+
+```bash
+meteor admin maintainers <package name> --add <organization name>
+```
+
+There is also a special Meteor organization `communitypackages` which consist of trusted community members who have permissions to publish any community package. This is a fallback measure to assure no package ends up without a maintainer. Make sure you add it as maintainer as well.
 
 ## Communication
 
@@ -31,7 +55,7 @@ Slack should be used for more general communication of ideas and discussion abou
 
 Much of the happenings of our GitHub repositories are published to specific channels in Slack as well. This can allow you to subscribe to more real time updates about specific issues and efforts in a fine grained way.
 
-Channels that have specific GitHub integation are as follows:
+Channels that have specific GitHub integration are as follows:
 
 * #packages - Updates about the packages that are maintained by the community.
 
@@ -42,26 +66,6 @@ Channels that have specific GitHub integation are as follows:
 * #dragon - Update specific to the Dragon. The community alternative to Atmosphere.
 
 Please feel free to join us in the Slack workspace by clicking this [invite link](https://bit.ly/2lZncTV).
-
-
-
-### Teams
-
-Each repository should have at least one corresponding [GitHub team](https://github.com/orgs/Meteor-Community-Packages/teams), containing all maintainers of the repository. It is suggested that team's name match repository's name, unless team is used for multiple repositories.
-
-Each repository should also have a corresponding Meteor organization, you can [create it here](https://www.meteor.com/account-settings) under `Organizations` tab. After that you can add Meteor users to it, using web interface, or:
-
-```bash
-meteor admin members <organization name> --add <username>
-```
-
-Add that Meteor organization then as maintainer of the corresponding Meteor package:
-
-```bash
-meteor admin maintainers <package name> --add <organization name>
-```
-
-There is also a special Meteor organization `communitypackages` which consist of trusted community members who have permissions to publish any community package. This is a fallback measure to assure no package ends up without a maintainer. Make sure you add it as maintainer as well.
 
 ## Package maintenance
 
