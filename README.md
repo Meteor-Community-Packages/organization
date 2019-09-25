@@ -9,6 +9,12 @@ This repository serves to resolve governance issues and establish shared practic
 * [Meteor testing](https://github.com/meteortesting) - Focuses on testing in Meteor
 * [Blaze](https://github.com/meteor/blaze) - Maintains the original view layer of Meteor
 
+## Community Resources
+
+* [Awesome Meteor](https://github.com/urigo/awesome-meteor) - A curated, community driven list of awesome Meteor packages, libraries, resources and shiny things.
+
+* [Awesome Blaze](https://github.com/arggh/awesome-blaze) - A curated list of awesome things related to Blaze.
+
 ## Organization
 
 ### Teams
