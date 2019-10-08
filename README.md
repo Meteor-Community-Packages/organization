@@ -35,9 +35,11 @@ meteor admin maintainers <package name> --add <organization name>
 
 There is also a special Meteor organization `communitypackages` which consist of trusted community members who have permissions to publish any community package. This is a fallback measure to assure no package ends up without a maintainer. Make sure you add it as maintainer as well.
 
-### NPM
+### Organization on NPM
 
-For transferring packages that live on [NPM](https://www.npmjs.com/), please contact [@StorytellerCZ](https://github.com/StorytellerCZ), who will add you to the [NPM organization](https://www.npmjs.com/org/meteor-community) and create a team for you package. After that you will be able to add the team as a maintainer for the package.
+We have an [NPM organization](https://www.npmjs.com/org/meteor-community), to maintain Meteor packages that live on  [NPM](https://www.npmjs.com/). The organization is same as on Atmosphere with the difference that instead of multiple organizations handling specific package(s), NPM uses teams under the organization for that purpose.
+
+For adding packages under our organization see [section bellow](#npm) about this topic.
 
 ## Communication
 
@@ -100,3 +102,7 @@ Please feel free to join us in the Slack workspace by clicking this [invite link
   ```
 
 * If repository has been moved, do not forget to update the URL to the repository in `package.js`.
+
+### NPM
+
+For transferring packages that live on [NPM](https://www.npmjs.com/), please contact [@StorytellerCZ](https://github.com/StorytellerCZ), who will add you to the [NPM organization](https://www.npmjs.com/org/meteor-community) and create a team for you package. After that you will be able to add the team as a maintainer for the package.
