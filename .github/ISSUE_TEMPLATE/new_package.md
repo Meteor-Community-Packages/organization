@@ -28,3 +28,4 @@ assignee: ''
  - [ ] Team Created
  - [ ] Meteor Org Created and set as maintainer
  - [ ] `communitypackages` org added as a maintainer on Atmosphere
+ - [ ] Added to the [community website](https://github.com/Meteor-Community-Packages/website) project listings
