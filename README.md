@@ -69,7 +69,7 @@ Channels that have specific GitHub integration are as follows:
 
 * #website - Updates specific to the groups website
 
-* #dragon - Update specific to the Dragon. The community alternative to Atmosphere.
+* #packoshpere - Updates specific to the Packosphere. The community alternative to Atmosphere.
 
 Please feel free to join us in the Slack workspace by clicking this [invite link](https://join.slack.com/t/meteor-community/shared_invite/enQtODA0NTU2Nzk5MTA3LWY5NGMxMWRjZDgzYWMyMTEyYTQ3MTcwZmU2YjM5MTY3MjJkZjQ0NWRjOGZlYmIxZjFlYTA5Mjg4OTk3ODRiOTc).
 
