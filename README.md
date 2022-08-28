@@ -21,7 +21,7 @@ This repository serves to resolve governance issues and establish shared practic
 
 Each repository should have at least one corresponding [GitHub team](https://github.com/orgs/Meteor-Community-Packages/teams), containing all maintainers of the repository. It is suggested that team's name match repository's name, unless team is used for multiple repositories.
 
-Each repository should also have a corresponding Meteor organization, you can [create it here](https://www.meteor.com/account-settings) under `Organizations` tab. After that you can add Meteor users to it, using web interface, or:
+Each repository should also have a corresponding Meteor organization, you can [create it here](https://cloud.meteor.com/organizations) under `Organizations` tab. After that you can add Meteor users to it, using web interface, or:
 
 ```bash
 meteor admin members <organization name> --add <username>
