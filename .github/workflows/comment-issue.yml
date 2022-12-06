@@ -20,7 +20,7 @@ jobs:
             with the newest changes in Meteor and the overall NodeJs/JavaScript ecosystem.
             
             However, we contribute to these packages mostly in our free time.
-            THerefore, we can't guarantee you issues to be solved within certain time.
+            Therefore, we can't guarantee you issues to be solved within certain time.
             
             If you think this issue is trivial to solve, don't hesitate to submit
             a pull request, too! We will accompany you in the process with reviews and hints
